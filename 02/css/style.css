@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#rosso {
+  color: red;
+  font-size: 20px;
+  padding: 16px;
+  background-color: rgba(250, 104, 104, 0.2);
+}
+
+#verde {
+  color: green;
+  font-size: 20px;
+  padding: 16px;
+  background-color: rgba(163, 221, 68, 0.2);
+}
