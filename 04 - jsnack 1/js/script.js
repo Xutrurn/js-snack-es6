@@ -22,15 +22,15 @@ $(document).ready(function() {
     {
       nome: 'Dddd',
       peso: 7
-    },
+    }
   ];
 
   // setto il peso minore
-  let biciclettaLeggera = 0;
+  let biciclettaLeggera = arrayBiciclette[0];
 
   // condizione per cercare l'elemento con peso minore
-  arrayBiciclette.forEach(element => {
-    if (biciclettaLeggera == 0 || biciclettaLeggera.peso > element.peso) {
+  arrayBiciclette.forEach((element) => {
+    if (biciclettaLeggera.peso > element.peso) {
       biciclettaLeggera = element;
     }
   });
